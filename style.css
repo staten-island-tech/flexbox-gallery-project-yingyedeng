@@ -4,24 +4,39 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 62.5%;
   font-family: "Open Sans Condensed"; sans-serif;
   background: lightgrey;
   color: black;
 }
-.background{
-    background-color; white;
-}
-#id{
+#id {
     text-align: center;
     background-color: white;
     margin-left: 600px;
     margin-right: 600px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.em-size {
+  font-size: 50em;
 }
 .parent {
   font-size: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.child {
+  height: 500px;
+  width: 500px;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 40px;
+  background-color:white
+}
+.img {
+  margin: 35px;
+  margin-top: 10px;
+  height: 400px;
+  text-align: center;
 }
