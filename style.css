@@ -24,7 +24,7 @@ body,
   font-size: 30px;
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-end;
+  align-items: center;
 }
 .enlarge:hover {
   transform: scale(1.1);
@@ -44,5 +44,101 @@ body,
   margin: 35px;
   margin-top: 10px;
   height: 400px;
-  text-align: center;
+  align-items: center;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+
+
+}
+@media screen and (max-width: 768px) {
+  html, 
+  body,
+  * {
+    background-color: lightgrey;
+    color: black;
+  }
+  #id {
+    text-align: center;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: #5c5d5c 10px 10px;
+    border-radius: 25px;
+  }
+  .parent {
+    position: relative;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .child {
+    height: 500px;
+    width: 500px;
+    width: 60%;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color:white;
+    box-shadow: #5c5d5c 10px 10px;
+    border-radius: 25px;
+  }
+  .img {
+    position: relative;
+    width: fit-content;
+    height: 350px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  html, 
+  body,
+  * {
+    background-color: lightgrey;
+    color: black;
+  }
+  #id {
+    text-align: center;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: #5c5d5c 10px 10px;
+    border-radius: 25px;
+  }
+  .parent {
+    position: relative;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .child {
+    height: 500px;
+    width: 500px;
+    width: 60%;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color:white;
+    box-shadow: #5c5d5c 10px 10px;
+    border-radius: 25px;
+  }
+  .img {
+    position: relative;
+    width: fit-content;
+    height: 350px;
+    align-items: center;
+  }
 }
