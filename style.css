@@ -27,8 +27,17 @@ body,
   justify-content: space-evenly;
   align-items: center;
 }
-.enlarge:hover {
+.grow:hover {
   transform: scale(1.1);
+}
+.shrink:hover {
+  transform: scale(0.9);
+}
+.float:hover {
+  transform: translateX(1rem);
+}
+.sink:hover {
+  transform: translateX(-1rem);
 }
 .child {
   height: 450px;
@@ -40,6 +49,7 @@ body,
   background-color:white;
   box-shadow: #5c5d5c 10px 10px;
   border-radius: 25px;
+  -webkit-transition: all 0.3s;
 }
 .title {
   background: white;
