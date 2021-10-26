@@ -33,11 +33,14 @@ body,
 .shrink:hover {
   transform: scale(0.9);
 }
-.float:hover {
+.forward:hover {
   transform: translateX(1rem);
 }
-.sink:hover {
+.backward:hover {
   transform: translateX(-1rem);
+}
+.sink:hover {
+  transform: translateY(-1rem);
 }
 .child {
   height: 450px;
