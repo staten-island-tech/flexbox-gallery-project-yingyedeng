@@ -82,7 +82,9 @@ body {
 }
 @media screen and (max-width: 1470px){
   #id {
-    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60rem;
   }
   .img {
     position: relative;
